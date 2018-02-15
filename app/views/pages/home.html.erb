@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>The Rails Sandbox</title>
+<link href="http://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Alegreya:700" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="~/rails_projects/alpha-blog/app/assets/stylesheets/style.css">
+
+</head>
+
+<body>
+	<div class="title_and_slogan">
+		<h1>The Rails Sandbox</h1>
+		<h2>Your playground for learning Ruby on Rails</h2>
+	</div>
+
+	<nav class="nav_items">
+		<a href="#">Home</a> |
+  		<%= link_to 'About', about_path %> |
+  		<a href="#">Docs & Guides</a> |
+  		<a href="#">Contact</a>	
+	</nav>
+
+	<div class="hero-image">
+		<%= image_tag('header3.jpg', :class => 'hero-image')%>
+	</div>
+
+
+	<div class="body-text">
+		<div class="first-item">
+			<h2>Learn</h2>
+			<p>Follow the course material and find out how easy it really is to get up and running with Rails and start building your own apps!</p>
+		</div>
+
+		<div class="second-item">
+			<h2>Practice</h2>
+			<p>Practice your new skills in the designated sandbox area. Put your knowledge to the test and build whatever apps you'd like.</p>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p style ="font-family: 'Roboto Condensed', sans-serif; text-transform: uppercase; line-height: 60px">The Rails Sandbox &nbsp&nbsp|&nbsp&nbsp2018</p>
+	</div>
+
+
+</body>
+
+</html>
